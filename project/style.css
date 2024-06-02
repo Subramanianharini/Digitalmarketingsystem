@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2,h3 {
+    margin-top: 1rem;
+    float:left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.btn {
+    margin-top: 1rem;
+  }
+  
+  a.font-weight-bold {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #dc3545;
+    text-decoration: none;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .image-container .overlay, .image-container .overlay-content.clickable {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 500%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(220, 53, 69, 0.9);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .text-justify{
+    top: 1114px;
+left: 960px;
+width: 584px;
+height: 83px;
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  }
+  .text-left{
+    top: 1101px;
+left: 373px;
+width: 442px;
+height: 110px;
+text-align: left;
+font: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+  }
+  
+  .section-title {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section-heading {
+  font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 50px;
+ 
+}
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+.project-image {
+    max-width: 10px;
+    max-height: 10px;
+  }
+.project-content {
+    padding: 20px;
+}
+.highlight {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.highlight p {
+    margin: 0;
+} 
+.growth-section {
+  background-color:black;
+  padding: 50px 0;
+}
+.growth-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.growth-icon {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 10px;
+}
+.growth-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+} 
+.feedback-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+.feedback-section h4 {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feedback-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.feedback-section::before {
+  content: "“";
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  color: #e0e0e0;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  z-index: -1;
+}
+.feedback-section .quote {
+  top: 4292px;
+left: 554px;
+width: 831px;
+height: 62px;
+text-align: left;
+font: normal normal normal 20px/34px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.feedback-section .author {
+  top: 4378px;
+  left: 554px;
+  width: 159px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #FF3147;
+  opacity: 1;
+}
+.feedback-section .author span {
+  top: 4378px;
+left: 718px;
+width: 338px;
+height: 28px;
+text-align: left;
+font: normal normal 300 20px/34px Poppins;
+letter-spacing: 0px;
+color: #808080;
+opacity: 1;
+
+}
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+  

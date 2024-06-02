@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         .contact-section {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: left;
+        }
+        .contact-section form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .contact-section form input[type="text"],
+        .contact-section form input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+             border: blank;
+            border-radius: 4px;
+            border-style: solid;
+        }
+        .contact-section form input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .contact-section form button {
+            background-color: #ff3366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer; 
+        }
+        .contact-section form button:hover {
+            background-color: #e62e5c;
+        }
+    
+       
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <form>
+            <h3 class="text-align:Left">Talk to us</h3>
+            <input type="email" name="email" placeholder="Work email*" required>
+            <input type="text" name="first_name" placeholder="First name*" required>
+            <input type="text" name="last_name" placeholder="Last name*" required>
+            <div>
+                <input type="checkbox" name="agreement" required>
+                <label for="agreement">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+            </div>
+            <button type="submit">Contact Us</button>
+        </form>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
